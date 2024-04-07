@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>SunnySideApp Weather</title>
+  <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+  <div id='background'></div>
+  <main>
+    <img src='./logo.png' id='logo'/>
+    <div class='left'>
+      <form>
+        <input type='text' id='city-input' placeholder='Enter city' required />
+        <input type='submit' id='submit-button' />
+      </form>
+      <div id='container'></div>
+    </div>
+    <div class='right'>
+      <h4>Hourly Forecast</h4>
+      <div id='hourly-container'></div>
+      <h4>Daily Forecast</h4>
+      <div id='daily-container'></div>
+    </div>
+  </main>
+  <script src='script.js' type='module' defer></script>
+</body>
+</html>
